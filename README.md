@@ -68,8 +68,8 @@ Actively tracking issues, testing codebases, and drafting contributions for:
 
 <div align="center">
 
-| Contributions Summary | Commit Streak Stats |
+| Activity Graph | Commit Streak Stats |
 | :--- | :--- |
-| <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=syedsohailhussain1&theme=solarized_dark" width="400" alt="Sohail's GitHub Stats" /> | <img src="https://github-readme-streak-stats.herokuapp.com/?user=syedsohailhussain1&theme=dark&hide_border=true" width="380" alt="Sohail's Streak Stats" /> |
+| <img src="https://github-readme-activity-graph.vercel.app/graph?username=syedsohailhussain1&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_border=true" width="400" alt="Activity Graph" /> | <img src="https://github-readme-streak-stats.herokuapp.com/?user=syedsohailhussain1&theme=dark&hide_border=true" width="380" alt="Streak Stats" /> |
 
 </div>
