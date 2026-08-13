@@ -2,9 +2,9 @@
 
 # Syed Sohail Hussain
 
-**Full-Stack AI Software Engineer** —  building AI-native web platforms, running LLMs down to the metal, and engineering high-performance systems.
+**Full-Stack AI Software Engineer** — building AI-native web platforms, running LLMs down to the metal, and engineering high-performance systems.
 
-`TypeScript` · `Rust` · `Python` · `AWS Bedrock` · `RAG` · `AI`
+`TypeScript` · `Rust` · `Python` · `AWS Bedrock` · `RAG` · `Systems Engineering` · `AI`
 
 </div>
 
@@ -13,7 +13,8 @@
 ### What I'm building right now
 
 - **[sagelib](https://github.com/syedsohailhussain1/sagelib)** — a native Rust TF-IDF search & document ingestion engine with Node.js (`napi-rs`) and Python (`PyO3`) bindings, built for composable AI retrieval pipelines.
-
+- **[llm-provider-failover](https://github.com/syedsohailhussain1/llm-provider-failover)** — a lightweight, zero-dependency TypeScript utility for building robust LLM integrations, implementing multi-provider cascade failover and smart exponential backoff.
+- **[use-stream-buffer](https://github.com/syedsohailhussain1/use-stream-buffer)** — a specialized React hook for managing fast-arriving streaming chunks (like those from LLMs) that prevents over-rendering through debounced, interval-based buffer flushing.
 
 ---
 
@@ -37,7 +38,7 @@
 | **APIs & Security** | ![REST APIs](https://img.shields.io/badge/REST_APIs-black?style=flat-square) ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white) ![gRPC](https://img.shields.io/badge/gRPC-black?style=flat-square) ![JWT Auth](https://img.shields.io/badge/JWT_Auth-black?style=flat-square) ![OAuth](https://img.shields.io/badge/OAuth-black?style=flat-square) ![RBAC](https://img.shields.io/badge/RBAC-black?style=flat-square) |
 | **Cloud & DevOps** | ![AWS EC2](https://img.shields.io/badge/AWS_EC2-232F3E?style=flat-square&logo=amazonec2&logoColor=white) ![AWS S3](https://img.shields.io/badge/AWS_S3-569A31?style=flat-square&logo=amazons3&logoColor=white) ![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white) ![IAM](https://img.shields.io/badge/AWS_IAM-232F3E?style=flat-square) ![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat-square) ![Route 53](https://img.shields.io/badge/Route_53-232F3E?style=flat-square) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white) |
 | **Languages & Frameworks** | ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![C#/.NET](https://img.shields.io/badge/C%23_.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB) |
-| **Data & Trading** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Pine Script](https://img.shields.io/badge/Pine_Script-131722?style=flat-square&logo=tradingview&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-black?style=flat-square) |
+| **Data & Analytics** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-black?style=flat-square) |
 | **Fintech & Utilities** | ![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white) ![Stripe Connect](https://img.shields.io/badge/Stripe_Connect-635BFF?style=flat-square) ![Puppeteer](https://img.shields.io/badge/Puppeteer-40B5A4?style=flat-square&logo=puppeteer&logoColor=white) |
 
 </div>
@@ -56,11 +57,14 @@ A high-performance, native Rust TF-IDF search and document ingestion engine desi
 
 ### Open source contributions
 
-- **[Vite](https://github.com/vitejs/vite)** (`chore-deprecate-plugin-hooks`) — Deprecated legacy config hooks and introduced explicit JSDoc `@deprecated` compiler tags to streamline ecosystem API migration. Analyzed tryListen port-binding and wildcard interface validation in dev server modules.
-- **[Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)** (`fix-duplicate-with-typo`) — Fixed syntax bugs and duplicate class rule declarations in the core CSS parser test suites to prevent compiler verification errors.
+- **[Vercel AI SDK](https://github.com/vercel/ai)** (`fix-audio-format-error`) — Refactored speech generator audio file format resolver to throw typed `InvalidArgumentError` conforming to the SDK's custom error guidelines, and added changesets.
+- **[Vite](https://github.com/vitejs/vite/pull/23250)** (`chore-deprecate-plugin-hooks`) — Deprecated legacy config hooks and introduced explicit JSDoc `@deprecated` compiler tags to streamline ecosystem API migration. Analyzed tryListen port-binding and wildcard interface validation in dev server modules.
 - **[React Router](https://github.com/remix-run/react-router)** (`refactor-deferred-types`) — Refactored internal router utility methods to implement definite assignment type assertions in `createDeferred`, improving strict TypeScript compilation.
 - **[Docusaurus](https://github.com/facebook/docusaurus)** (`refactor-relative-breadcrumb`) — Refactored relative path computations inside `content-docs` to utilize `path.posix.relative` for correct and standardized breadcrumb resolution on Unix systems.
 - **[Supabase](https://github.com/supabase/supabase)** (`refactor-option-type`) — Refactored shared UI select primitives to make the `Option` interface generic, enabling first-class support for custom enum values in schema configurations.
+- **[freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)** (`refactor-video-player-locale`) — Refactored client-side locale checking inside the video-player module to utilize the existing `Languages` enum, improving type safety and preventing runtime locale mismatches.
+- **[Next.js](https://github.com/vercel/next.js)** (`fix-cli-output-typo`) — Fixed grammatical typos in CLI output test scripts to maintain clean test runs.
+- **[Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)** (`fix-duplicate-with-typo`) — Fixed syntax bugs and duplicate class rule declarations in the core CSS parser test suites to prevent compiler verification errors.
 
 ---
 
