@@ -23,7 +23,6 @@
 - **Local inference & model tooling** — running and benchmarking open models via Ollama, llama.cpp, and LM Studio; sourcing and evaluating models from Hugging Face; hands-on GPU compute optimization on consumer hardware, including a double-buffered VRAM streaming setup for MoE expert weights on a 4GB card.
 - **Systems programming** — Rust engines with cross-language native bindings, plus long-standing contributions to web tooling (Vite, Tailwind CSS).
 - **Full-stack & cloud infrastructure** — production REST APIs, JWT/OAuth/RBAC auth, and AWS architecture spanning EC2, Lambda, S3, IAM, Route 53, and CloudWatch, deployed through Docker and GitHub Actions CI/CD.
-- **Quant & algorithmic trading** — a Pine Script multi-timeframe XAU/USD indicator, an MT5 grid/hedge EA, and Polymarket strategy backtesting in Python/pandas.
 
 ---
 
@@ -57,11 +56,11 @@ A high-performance, native Rust TF-IDF search and document ingestion engine desi
 
 ### Open source contributions
 
-**Vite** — deprecated legacy plugin hooks and added explicit `@deprecated` documentation tags to guide the ecosystem toward modern APIs; deep-dived port-binding behavior and ephemeral port validation in the dev server.
-
-**Tailwind CSS** — refactored core CSS parsing test suites and cleaned up internal utility classes by fixing syntax issues and duplicates.
-
-**Active ecosystem tracking** — Docusaurus (search infrastructure and doc builds), React Router (compilation paths and route matching), Zustand/Supabase/Next.js (performance and config tooling).
+- **[Vite](https://github.com/vitejs/vite)** (`chore-deprecate-plugin-hooks`) — Deprecated legacy config hooks and introduced explicit JSDoc `@deprecated` compiler tags to streamline ecosystem API migration. Analyzed tryListen port-binding and wildcard interface validation in dev server modules.
+- **[Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)** (`fix-duplicate-with-typo`) — Fixed syntax bugs and duplicate class rule declarations in the core CSS parser test suites to prevent compiler verification errors.
+- **[React Router](https://github.com/remix-run/react-router)** (`refactor-deferred-types`) — Refactored internal router utility methods to implement definite assignment type assertions in `createDeferred`, improving strict TypeScript compilation.
+- **[Docusaurus](https://github.com/facebook/docusaurus)** (`refactor-relative-breadcrumb`) — Refactored relative path computations inside `content-docs` to utilize `path.posix.relative` for correct and standardized breadcrumb resolution on Unix systems.
+- **[Supabase](https://github.com/supabase/supabase)** (`refactor-option-type`) — Refactored shared UI select primitives to make the `Option` interface generic, enabling first-class support for custom enum values in schema configurations.
 
 ---
 
