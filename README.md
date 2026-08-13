@@ -2,11 +2,8 @@
 
 # Syed Sohail Hussain
 
-**Full-Stack Software Engineer & Systems Developer**  
+**Full-Stack AI Software Engineer & Systems Developer**  
 Specializing in systems programming, high-performance engines, and web infrastructure.
-
-[![GitHub Profile Views](https://komarev.com/normal-badge/?key=syedsohailhussain1&style=flat-square&color=black&label=profile+views)](https://github.com/syedsohailhussain1)
-[![GitHub Follow](https://img.shields.io/github/followers/syedsohailhussain1?label=follow&style=flat-square&color=black)](https://github.com/syedsohailhussain1)
 
 </div>
 
@@ -68,8 +65,8 @@ Actively tracking issues, testing codebases, and drafting contributions for:
 
 <div align="center">
 
-| Activity Graph | Commit Streak Stats |
+| Contributions Summary | Commit Streak Stats |
 | :--- | :--- |
-| <img src="https://github-readme-activity-graph.vercel.app/graph?username=syedsohailhussain1&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_border=true" width="400" alt="Activity Graph" /> | <img src="https://github-readme-streak-stats.herokuapp.com/?user=syedsohailhussain1&theme=dark&hide_border=true" width="380" alt="Streak Stats" /> |
+| <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=syedsohailhussain1&theme=solarized_dark" width="400" alt="Sohail's GitHub Stats" /> | <img src="https://github-readme-streak-stats.herokuapp.com/?user=syedsohailhussain1&theme=dark&hide_border=true" width="380" alt="Sohail's Streak Stats" /> |
 
 </div>
