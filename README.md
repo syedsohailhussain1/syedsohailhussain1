@@ -3,7 +3,8 @@
 # Syed Sohail Hussain
 
 **Full-Stack AI Software Engineer & Systems Developer**  
-Specializing in systems programming, high-performance engines, and web infrastructure.
+Specializing in systems programming, high-performance engines, and web infrastructure.  
+Focused on AI, actively learning and developing Retrieval-Augmented Generation (RAG).
 
 </div>
 
