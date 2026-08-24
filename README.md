@@ -67,14 +67,15 @@ A high-performance, native Rust TF-IDF search and document ingestion engine desi
 - **[Tailwind CSS](https://github.com/tailwindlabs/tailwindcss)** (`fix-duplicate-with-typo`) — Fixed syntax bugs and duplicate class rule declarations in the core CSS parser test suites to prevent compiler verification errors.
 
 ---
-
 ### GitHub stats
 
 <div align="center">
 
-| Contributions Summary | Commit Streak Stats |
-| :--- | :--- |
-| <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=syedsohailhussain1&theme=solarized_dark" width="400" alt="Sohail's GitHub Stats" /> | <img src="profile/streak-stats.svg" width="380" alt="Sohail's Streak Stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=syedsohailhussain1&theme=solarized_dark" width="850" alt="Sohail's GitHub Profile Summary" />
 
+  <br /><br />
+
+  <img src="profile/streak-stats.svg" width="550" alt="Sohail's Streak Stats" />
 
 </div>
+
