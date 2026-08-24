@@ -2,8 +2,8 @@ name: Update Streak Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Daily at midnight UTC
-  workflow_dispatch:
+    - cron: '0 0 * * *' # Runs daily at midnight
+  workflow_dispatch:      # Allows manual trigger in Actions tab
 
 jobs:
   update-streak:
@@ -20,7 +20,7 @@ jobs:
           output-path: profile/streak-stats.svg
           theme: solarized-dark
           hide-border: true
-      - name: Commit & Push
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
