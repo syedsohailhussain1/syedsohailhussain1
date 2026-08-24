@@ -74,7 +74,7 @@ A high-performance, native Rust TF-IDF search and document ingestion engine desi
 
 | Contributions Summary | Commit Streak Stats |
 | :--- | :--- |
-| <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=syedsohailhussain1&theme=solarized_dark" width="400" alt="Sohail's GitHub Stats" /> | <img src="https://streak-stats.demolab.com/?user=syedsohailhussain1&theme=dark&hide_border=true" width="380" alt="Sohail's Streak Stats" />
- |
+| <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=syedsohailhussain1&theme=solarized_dark" width="400" alt="Sohail's GitHub Stats" /> | <img src="profile/streak-stats.svg" width="380" alt="Sohail's Streak Stats" />
+
 
 </div>
