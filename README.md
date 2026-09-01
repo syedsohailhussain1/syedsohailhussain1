@@ -51,7 +51,7 @@ A high-performance, native Rust TF-IDF search and document ingestion engine desi
 
 - **Multi-language support** — unified native bindings for Node.js (`napi-rs`) and Python (`PyO3`).
 - **Engine capabilities** — real-time semantic chunking, dual-retriever options, and retrieval-time authorization for secure, tenant-scoped ingestion.
-- **Distribution** — published to NPM (`sagelib`) and Test PyPI (`sagelib`), with automated multi-platform build pipelines.
+
 
 ---
 
