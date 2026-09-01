@@ -2,7 +2,7 @@
 
 # Syed Sohail Hussain
 
-**Full-Stack AI Software Engineer** — building AI-native web platforms, running LLMs down to the metal, and engineering high-performance systems.
+**Applied AI / Full-Stack Software Engineer** — building AI-native web platforms, running LLMs down to the metal, and engineering high-performance systems.
 
 `TypeScript` · `Rust` · `Python` · `AWS Bedrock` · `RAG` · `Systems Engineering` · `AI`
 
