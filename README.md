@@ -57,16 +57,14 @@ A high-performance, native Rust TF-IDF search and document ingestion engine desi
 
 ### Open source contributions
 
-- **[Vercel AI SDK #18838](https://github.com/vercel/ai/pull/18838)** — Refactored speech generator audio file format resolver to throw typed `InvalidArgumentError` conforming to SDK custom error guidelines.
-- **[llama.cpp #27033](https://github.com/ggml-org/llama.cpp/pull/27033)** — Implemented native Win32 core topology detection (`GetLogicalProcessorInformationEx`) and thread affinity pinning for hybrid Intel/AMD architectures (P-cores vs. E-cores).
-- **[LangChain.js #11463](https://github.com/langchain-ai/langchainjs/pull/11463)** — Fixed `ChatBedrockConverse` caller binding to properly support retry and failover handlers.
-- **[Vite #23250](https://github.com/vitejs/vite/pull/23250)** — Deprecated legacy config hooks and introduced explicit JSDoc `@deprecated` compiler tags to streamline ecosystem API migration.
-- **[Supabase #49019](https://github.com/supabase/supabase/pull/49019)** — Refactored shared UI select primitives to make the `Option` interface generic for custom enum support.
-- **[freeCodeCamp #69516](https://github.com/freeCodeCamp/freeCodeCamp/pull/69516)** — Refactored client-side locale checking inside video-player module to use the `Languages` enum for strict type safety.
-- **[React Router #15396](https://github.com/remix-run/react-router/pull/15396)** — Refactored router utility methods to implement definite assignment type assertions in `createDeferred`.
-- **[Docusaurus #12359](https://github.com/facebook/docusaurus/pull/12359)** — Refactored relative path computations inside `content-docs` to utilize `path.posix.relative`.
-- **[Next.js #97266](https://github.com/vercel/next.js/pull/97266)** — Fixed grammatical typos in CLI output test scripts.
-- **[Tailwind CSS #20415](https://github.com/tailwindlabs/tailwindcss/pull/20415)** — Fixed syntax bugs and duplicate class rule declarations in core CSS parser test suites.
+- **[Vercel AI SDK](https://github.com/vercel/ai/pull/18838)** (`fix-audio-format-error`) — Refactored speech generator audio file format resolver to throw typed `InvalidArgumentError` conforming to the SDK's custom error guidelines, and added changesets.
+- **[Vite](https://github.com/vitejs/vite/pull/23250)** (`chore-deprecate-plugin-hooks`) — Deprecated legacy config hooks and introduced explicit JSDoc `@deprecated` compiler tags to streamline ecosystem API migration. Analyzed tryListen port-binding and wildcard interface validation in dev server modules.
+- **[React Router](https://github.com/remix-run/react-router/pull/15396)** (`refactor-deferred-types`) — Refactored internal router utility methods to implement definite assignment type assertions in `createDeferred`, improving strict TypeScript compilation.
+- **[Docusaurus](https://github.com/facebook/docusaurus/pull/12359)** (`refactor-relative-breadcrumb`) — Refactored relative path computations inside `content-docs` to utilize `path.posix.relative` for correct and standardized breadcrumb resolution on Unix systems.
+- **[Supabase](https://github.com/supabase/supabase/pull/49019)** (`refactor-option-type`) — Refactored shared UI select primitives to make the `Option` interface generic, enabling first-class support for custom enum values in schema configurations.
+- **[freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp/pull/69516)** (`refactor-video-player-locale`) — Refactored client-side locale checking inside the video-player module to utilize the existing `Languages` enum, improving type safety and preventing runtime locale mismatches.
+- **[Next.js](https://github.com/vercel/next.js/pull/97266)** (`fix-cli-output-typo`) — Fixed grammatical typos in CLI output test scripts to maintain clean test runs.
+- **[Tailwind CSS](https://github.com/tailwindlabs/tailwindcss/pull/20415)** (`fix-duplicate-with-typo`) — Fixed syntax bugs and duplicate class rule declarations in the core CSS parser test suites to prevent compiler verification errors.
 
 ---
 ### GitHub stats
